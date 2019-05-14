@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  cometChat: {
+    apiKey: '237d1b4d611a034df74ee50c9655dbedafe84f73',
+    appId: '3007e1ed331789',
+    groupId: 'heroes'
+  }
 };
 
 /*

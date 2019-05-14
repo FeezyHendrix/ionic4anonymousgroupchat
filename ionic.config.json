@@ -1,5 +1,7 @@
 {
   "name": "cometchat",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,14 +1,19 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Login
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+      <ion-item>
+          <ion-label position="stacked">Username</ion-label>
+          <ion-input #username></ion-input>
+        </ion-item>
+        <br>
+        <ion-button expand="full" (click)="login(username.value)">Login</ion-button>
+
   </div>
 </ion-content>
